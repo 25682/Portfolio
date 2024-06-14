@@ -1,0 +1,204 @@
+body {
+    background-color: #f5f5dc; /* Beige color */
+    color: #5a3e36; /* Black color for text */
+    font-family: 'Satoshi', sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-bottom: 4rem; /* Large space below headings */
+  }
+
+  a {
+    text-decoration: none;
+    color: #5a3e36;
+  }
+
+  .section-break {
+    padding-top: 100px; /* Large padding above sections */
+    padding-bottom: 100px; /* Large padding below sections */
+    border-bottom: 5px solid #5a3e36; /* Brown border to visually break sections */
+  }
+  
+  .btn {
+    background-color: #5a3e36; /* Brown color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #5a3e36; /* Darker brown color */
+  }
+  
+  .btn.d2c_secondary_btn {
+    background-color: #e0d4b3; /* Light beige for secondary button */
+    color: #000; /* Black color for text */
+  }
+  
+  .btn.d2c_secondary_btn:hover {
+    background-color: #d0c4a3; /* Slightly darker light beige */
+    color: #000; /* Black color for text */
+  }
+  
+  header,
+  .d2c_card,
+  .d2c_img_overlay {
+    background-color: #f5f5dc; /* Beige color */
+  }
+  
+  .d2c_card {
+    border: 1px solid #5a3e36; /* Brown border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-link {
+    color: #5a3e36;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #5a3e36;
+  }
+  
+  .skills-section {
+    background-color: #f5f5dc;
+    padding: 50px 0;
+    margin-top: 4rem; /* Large space above section */
+  }
+  
+  .skills-section .progress {
+    background-color: #e0d4b3; /* Light beige background for progress bars */
+    height: 20px; /* Height for progress bar */
+  }
+  
+  .skills-section .progress-bar.bg-brown {
+    background-color: #5a3e36; /* Brown color for progress bar */
+  }
+  
+  .contact-section {
+    background-color: #e0d4b3; /* Light beige */
+    padding: 50px 0;
+    margin-top: 4rem; /* Large space above section */
+  }
+  
+  .contact-section h2 {
+    color: #000; /* Black color for headings */
+  }
+  
+  .contact-section .form-control {
+    border: 1px solid #5a3e36;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-section .form-control:focus {
+    border-color: #5a3e36;
+    box-shadow: none;
+  }
+  
+  footer {
+    background-color: #5a3e36; /* Brown color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+ /* General styles for the section */
+.section-break {
+  background-color: #f5f5dc; /* Light beige background */
+  color: #5a3e36; /* Brown text */
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About section wrapper */
+.d2c_about_wrapper {
+  padding: 20px;
+}
+
+/* Italic text style */
+.italic-text {
+  font-style: italic;
+  color: #5a3e36; /* Brown text */
+}
+
+/* Heading styling */
+h2 {
+  font-style: italic;
+  color: #5a3e36; /* Brown text */
+  font-weight: bold;
+}
+
+/* List styling */
+ul {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px; /* Space between list items */
+  display: flex;
+  align-items: center;
+  color: #5a3e36; /* Brown text */
+}
+
+ul li strong {
+  font-weight: bold; /* Bold text for emphasis */
+  margin-right: 10px;
+}
+
+ul li span {
+  font-style: italic;
+  color: #5a3e36; /* Brown text */
+}
+
+/* Image wrapper styling */
+.d2c_img_wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.d2c_img_wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.d2c_img_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(139, 69, 19, 0.5); /* Transparent brown overlay */
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.d2c_img_wrapper:hover .d2c_img_overlay {
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-break {
+      padding: 20px 10px;
+  }
+}
+
